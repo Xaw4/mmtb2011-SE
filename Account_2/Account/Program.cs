@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Hubert Scharfetter
+//Andreas Wallinger
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +14,7 @@ namespace Account
         {
             Console.WriteLine("---- Welcome to the new Account-Manager-3000 ----");
 
-            Manager m = new Manager();
+            Manager m = Manager.getInstance();
 
             m.addAccount(new Account("Fred", 50));
             m.dumpAccounts();

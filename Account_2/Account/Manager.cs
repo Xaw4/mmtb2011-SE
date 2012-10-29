@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Hubert Scharfetter
+//Andreas Wallinger
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +16,7 @@ namespace Account
 
         private Manager() { }
 
-        public Manager getInstance()
+        public static Manager getInstance()
         {
             if (instance == null)
             {
