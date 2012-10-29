@@ -9,6 +9,19 @@ namespace Account
     {
         private List<Account> accounts = new List<Account>();
 
+        private static Manager instance = null;
+
+        private Manager() { }
+
+        public Manager getInstance()
+        {
+            if (instance == null)
+            {
+                instance = new Manager();
+            }
+            return instance;
+        }
+
         public void addAccount(Account acc){
             accounts.Add(acc);
         }
