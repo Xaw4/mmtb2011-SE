@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Accountmanager\Observer.csproj", "{BCEB2658-D327-4522-8CD9-EDC3C0DD8D60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F1B9986-ABB3-4E63-A18C-284F438F13A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEB2658-D327-4522-8CD9-EDC3C0DD8D60}.Debug|x86.ActiveCfg = Debug|x86
+		{BCEB2658-D327-4522-8CD9-EDC3C0DD8D60}.Debug|x86.Build.0 = Debug|x86
+		{BCEB2658-D327-4522-8CD9-EDC3C0DD8D60}.Release|x86.ActiveCfg = Release|x86
+		{BCEB2658-D327-4522-8CD9-EDC3C0DD8D60}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
